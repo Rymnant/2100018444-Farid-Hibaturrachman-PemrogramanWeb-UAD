@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 0.8em;
+}
+
+.tab1 {
+    display: inline-block;
+    margin-left: 4em;
+}
+
+.tab2 {
+    display: inline-block;
+    margin-left: 1.5em;
+}
+
+.col-1{
+    background-color: #d5dbd6;
+    text-align: center;
+}
+
+.col-2{
+    background-color: #f7f6f5;
+}
+
+.c-1-header{
+    text-align: center;
+}
+
+.a-center{
+    padding-top: 90px;
+}
+
+a:link{
+    color: black;
+}
