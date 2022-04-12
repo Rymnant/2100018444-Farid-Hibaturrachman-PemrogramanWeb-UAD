@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-table.css">
+    <title>table_form</title>
+</head>
+
+<body>
+    <div style="overflow-x: auto;">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2" style="padding: 10px;">Atas</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td style="background-color: #d5dbd6;">
+                        <div class="table-menu">
+                            <a href="inpbio.html">• Input Biodata</a><br><br>
+                            <a href="inpregis.html">• Input Pendaftaran</a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="table-main">
+                            <h3>Form Input Biodata</h3>
+                                <label for="fname">Nama Lengkap<span class="space">:</span>&emsp;</label>
+                                <input size="40" type="text" id="fname" name="fname"><br><br>
+                                <label for="address">Alamat<span class="space1">:</span>&emsp;</label>
+                                <input size="50" type="text" id="address" name="address"><br><br>
+                                <label for="telp">No. Telp<span class="space2">:</span>&emsp;</label>
+                                <input maxlenght="12" size="12" type="text" id="telp" name="telp"><br><br>
+                                <label for="relgi" type="text">Agama<span class="space1">:</span>&emsp;</label>
+                                <select name="relgi" id="relgi">
+                                    <option value="Islam">Islam</option>
+                                    <option value="Protestan">Protestan</option>
+                                    <option value="Katolik">Katolik</option>
+                                    <option value="Hindu">Hindu</option>
+                                    <option value="Buddha">Buddha</option>
+                                    <option value="Khonghucu">Khonghucu</option>
+                                </select><br><br>
+                                <div class="radio-male">
+                                    <label for="gender">Jenis Kelamin<span class="space3">:</span>&emsp;</label>
+                                    <input type="radio" id="male" name="gender" value="Laki-laki">
+                                    <label for="male">Laki-laki</label>
+                                    <input type="radio" id="female" name="gender" value="Perempuan">
+                                    <label for="female">Perempuan</label><br><br>
+                                </div>
+                                <label class="achieve" for="achieve">Prestasi yang pernah diraih &emsp; : &emsp;</label>
+                                <textarea class="achieve1" id="achieve" type="text" name="achieve"></textarea>
+                                <div class="sub-button">
+                                    <input type="submit" value="Submit">&emsp;<input type="reset" value="Batal">
+                                </div>
+                                
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th colspan="2" style="padding: 10px;">Bawah</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+
+</html>

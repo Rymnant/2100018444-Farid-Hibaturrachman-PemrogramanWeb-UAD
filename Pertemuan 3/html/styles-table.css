@@ -1,0 +1,62 @@
+table{
+    border-collapse: collapse;
+    width: 50em;
+    height: 30em;
+}
+td,th{
+    border: 1px solid black;
+}
+body {
+    margin: 0;
+}
+
+.table-menu{
+    text-align: center;
+}
+
+.table-main{
+    padding-left: 30px;
+}
+
+.space{
+    display: inline-block;
+    margin-left: 6.2em;
+}
+
+.space1 {
+    display: inline-block;
+    margin-left: 9.4em;
+}
+
+.space2{
+    display: inline-block;
+    margin-left: 8.8em;
+}
+
+.space3{
+    display: inline-block;
+    margin-left: 6.6em;
+}
+
+.achieve{
+    vertical-align: top;
+}
+
+.achieve1{
+    width: 20em;
+    height: 8em;
+}
+
+.sub-button{
+    padding-top: 20px;
+    padding-left: 15em;
+}
+
+.tab2 {
+    display: inline-block;
+    margin-left: 1.5em;
+}
+
+a:link{
+    color: black;
+}
