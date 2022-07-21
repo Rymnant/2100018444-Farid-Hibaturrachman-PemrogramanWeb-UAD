@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nama = (document.form.inama.value);
+        var nim = (document.form.inim.value);
+        var fak = (document.form.ifak.value);
+        var pro = (document.form.ipro.value);
+        var angkatan = parseFloat(document.form.iangkatan.value)
+
+        function warna(jos){
+            document.bgColor = jos;
+        }
+
+        function warnax(jos1){
+            var x = (angkatan);
+            if(x%2==0){
+                document.bgColor = ('green');
+            }else{
+                document.bgColor = ('red');
+            }
+        }
+
+        document.form.onama.value=eval(inama)
+    </script>
+
+    <section name="sect">
+        <form name="form">
+            <table border="1" align="center"width="70%">
+                <tr>
+                <td width="100%" colspan="2">
+                    <H2 ALIGN="center">BIODATA</H2>
+                </td>
+                </tr>
+                <tr>
+                <td width="50%">
+                    <pre>
+                        input
+
+    Nama        : <input type="text" size="20" name="inama" onchange="warna('lightblue')">  
+    NIM         : <input type="text" size="20" name="inim" onchange="warna('pink')"> 
+    Fakultas    : <input type="text" size="20" name="ifak" onchange="warna('burlywood')"> 
+    Prodi       : <input type="text" size="20" name="ipro" onchange="warna('darkgray')"> 
+    Angkatan    : <input type="text" size="20" name="iangkatan" onchange="warna('green')"> 
+            </td>
+                    </pre>
+                <td width="50%">
+                    <pre>
+                        output
+
+    Nama        : <input type="text" size="20" name="onama">  
+    NIM         : <input type="text" size="20" name="onim"> 
+    Fakultas    : <input type="text" size="20" name="ofak"> 
+    Prodi       : <input type="text" size="20" name="opro"> 
+    Angkatan    : <input type="text" size="20" name="oangkatan"> 
+                </td>
+                    <pre>
+    
+                </tr>
+                <tr>
+                <td width="100%" colspan="2">
+                <center>
+                <INPUT TYPE="button" value="Cetak" onclick="hitungt>
+                <INPUT TYPE="reset" value="Ulang">
+                </center></td>
+                </tr>
+                </table>
+        </form>
+    </section>
+</body>
+</html>

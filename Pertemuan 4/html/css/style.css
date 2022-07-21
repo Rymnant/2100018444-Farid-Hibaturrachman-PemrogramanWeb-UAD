@@ -1,0 +1,15 @@
+#p1 {
+  color: red;
+}
+/*class*/
+.p2 {
+  color: blue;
+}
+/*element*/
+p {
+  text-decoration: underline;
+}
+/*group*/
+.group {
+  text-align: center;
+}
